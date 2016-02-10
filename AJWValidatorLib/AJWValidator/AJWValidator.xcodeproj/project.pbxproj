@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		710B73E91C6B77EF0043EEA5 /* AJWValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73E81C6B77EF0043EEA5 /* AJWValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B73E91C6B77EF0043EEA5 /* AJWValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73E81C6B77EF0043EEA5 /* AJWValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		710B74071C6B77FF0043EEA5 /* AJWNumericValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73F01C6B77FF0043EEA5 /* AJWNumericValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		710B74081C6B77FF0043EEA5 /* AJWNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B73F11C6B77FF0043EEA5 /* AJWNumericValidator.m */; };
 		710B74091C6B77FF0043EEA5 /* AJWStringValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73F21C6B77FF0043EEA5 /* AJWStringValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		710B73E51C6B77EF0043EEA5 /* AJWValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AJWValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		710B73E81C6B77EF0043EEA5 /* AJWValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWValidator.h; sourceTree = "<group>"; };
+		710B73E81C6B77EF0043EEA5 /* AJWValidator-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJWValidator-umbrella.h"; sourceTree = "<group>"; };
 		710B73EA1C6B77EF0043EEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710B73F01C6B77FF0043EEA5 /* AJWNumericValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWNumericValidator.h; path = ../../../AJWValidator/AJWNumericValidator.h; sourceTree = "<group>"; };
 		710B73F11C6B77FF0043EEA5 /* AJWNumericValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWNumericValidator.m; path = ../../../AJWValidator/AJWNumericValidator.m; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				710B74041C6B77FF0043EEA5 /* AJWValidatorRule.m */,
 				710B74051C6B77FF0043EEA5 /* UIView+AJWValidator.h */,
 				710B74061C6B77FF0043EEA5 /* UIView+AJWValidator.m */,
-				710B73E81C6B77EF0043EEA5 /* AJWValidator.h */,
+				710B73E81C6B77EF0043EEA5 /* AJWValidator-umbrella.h */,
 				710B73EA1C6B77EF0043EEA5 /* Info.plist */,
 			);
 			path = AJWValidator;
@@ -135,7 +135,7 @@
 				710B74121C6B77FF0043EEA5 /* AJWValidatorRangeRule.h in Headers */,
 				710B740D1C6B77FF0043EEA5 /* AJWValidator+Private.h in Headers */,
 				710B74181C6B77FF0043EEA5 /* AJWValidatorRequiredRule.h in Headers */,
-				710B73E91C6B77EF0043EEA5 /* AJWValidator.h in Headers */,
+				710B73E91C6B77EF0043EEA5 /* AJWValidator-umbrella.h in Headers */,
 				710B74091C6B77FF0043EEA5 /* AJWStringValidator.h in Headers */,
 				710B741A1C6B77FF0043EEA5 /* AJWValidatorRule.h in Headers */,
 				710B74101C6B77FF0043EEA5 /* AJWValidatorEqualRule.h in Headers */,
@@ -367,6 +367,7 @@
 				710B73EF1C6B77EF0043EEA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
