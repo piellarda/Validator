@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710B73E91C6B77EF0043EEA5 /* AJWValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73E81C6B77EF0043EEA5 /* AJWValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B74071C6B77FF0043EEA5 /* AJWNumericValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73F01C6B77FF0043EEA5 /* AJWNumericValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B74081C6B77FF0043EEA5 /* AJWNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B73F11C6B77FF0043EEA5 /* AJWNumericValidator.m */; };
+		710B74091C6B77FF0043EEA5 /* AJWStringValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73F21C6B77FF0043EEA5 /* AJWStringValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B740A1C6B77FF0043EEA5 /* AJWStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B73F31C6B77FF0043EEA5 /* AJWStringValidator.m */; };
+		710B740B1C6B77FF0043EEA5 /* AJWValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73F41C6B77FF0043EEA5 /* AJWValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B740C1C6B77FF0043EEA5 /* AJWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B73F51C6B77FF0043EEA5 /* AJWValidator.m */; };
+		710B740D1C6B77FF0043EEA5 /* AJWValidator+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73F61C6B77FF0043EEA5 /* AJWValidator+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B740E1C6B77FF0043EEA5 /* AJWValidatorCustomRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73F71C6B77FF0043EEA5 /* AJWValidatorCustomRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B740F1C6B77FF0043EEA5 /* AJWValidatorCustomRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B73F81C6B77FF0043EEA5 /* AJWValidatorCustomRule.m */; };
+		710B74101C6B77FF0043EEA5 /* AJWValidatorEqualRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73F91C6B77FF0043EEA5 /* AJWValidatorEqualRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B74111C6B77FF0043EEA5 /* AJWValidatorEqualRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B73FA1C6B77FF0043EEA5 /* AJWValidatorEqualRule.m */; };
+		710B74121C6B77FF0043EEA5 /* AJWValidatorRangeRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73FB1C6B77FF0043EEA5 /* AJWValidatorRangeRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B74131C6B77FF0043EEA5 /* AJWValidatorRangeRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B73FC1C6B77FF0043EEA5 /* AJWValidatorRangeRule.m */; };
+		710B74141C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73FD1C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B74151C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B73FE1C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.m */; };
+		710B74161C6B77FF0043EEA5 /* AJWValidatorRemoteRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B73FF1C6B77FF0043EEA5 /* AJWValidatorRemoteRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B74171C6B77FF0043EEA5 /* AJWValidatorRemoteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B74001C6B77FF0043EEA5 /* AJWValidatorRemoteRule.m */; };
+		710B74181C6B77FF0043EEA5 /* AJWValidatorRequiredRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B74011C6B77FF0043EEA5 /* AJWValidatorRequiredRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B74191C6B77FF0043EEA5 /* AJWValidatorRequiredRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B74021C6B77FF0043EEA5 /* AJWValidatorRequiredRule.m */; };
+		710B741A1C6B77FF0043EEA5 /* AJWValidatorRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B74031C6B77FF0043EEA5 /* AJWValidatorRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B741B1C6B77FF0043EEA5 /* AJWValidatorRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B74041C6B77FF0043EEA5 /* AJWValidatorRule.m */; };
+		710B741C1C6B77FF0043EEA5 /* UIView+AJWValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 710B74051C6B77FF0043EEA5 /* UIView+AJWValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710B741D1C6B77FF0043EEA5 /* UIView+AJWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B74061C6B77FF0043EEA5 /* UIView+AJWValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		710B73E51C6B77EF0043EEA5 /* AJWValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AJWValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		710B73E81C6B77EF0043EEA5 /* AJWValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWValidator.h; sourceTree = "<group>"; };
+		710B73EA1C6B77EF0043EEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710B73F01C6B77FF0043EEA5 /* AJWNumericValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWNumericValidator.h; path = ../../../AJWValidator/AJWNumericValidator.h; sourceTree = "<group>"; };
+		710B73F11C6B77FF0043EEA5 /* AJWNumericValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWNumericValidator.m; path = ../../../AJWValidator/AJWNumericValidator.m; sourceTree = "<group>"; };
+		710B73F21C6B77FF0043EEA5 /* AJWStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWStringValidator.h; path = ../../../AJWValidator/AJWStringValidator.h; sourceTree = "<group>"; };
+		710B73F31C6B77FF0043EEA5 /* AJWStringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWStringValidator.m; path = ../../../AJWValidator/AJWStringValidator.m; sourceTree = "<group>"; };
+		710B73F41C6B77FF0043EEA5 /* AJWValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidator.h; path = ../../../AJWValidator/AJWValidator.h; sourceTree = "<group>"; };
+		710B73F51C6B77FF0043EEA5 /* AJWValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidator.m; path = ../../../AJWValidator/AJWValidator.m; sourceTree = "<group>"; };
+		710B73F61C6B77FF0043EEA5 /* AJWValidator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AJWValidator+Private.h"; path = "../../../AJWValidator/AJWValidator+Private.h"; sourceTree = "<group>"; };
+		710B73F71C6B77FF0043EEA5 /* AJWValidatorCustomRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorCustomRule.h; path = ../../../AJWValidator/AJWValidatorCustomRule.h; sourceTree = "<group>"; };
+		710B73F81C6B77FF0043EEA5 /* AJWValidatorCustomRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorCustomRule.m; path = ../../../AJWValidator/AJWValidatorCustomRule.m; sourceTree = "<group>"; };
+		710B73F91C6B77FF0043EEA5 /* AJWValidatorEqualRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorEqualRule.h; path = ../../../AJWValidator/AJWValidatorEqualRule.h; sourceTree = "<group>"; };
+		710B73FA1C6B77FF0043EEA5 /* AJWValidatorEqualRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorEqualRule.m; path = ../../../AJWValidator/AJWValidatorEqualRule.m; sourceTree = "<group>"; };
+		710B73FB1C6B77FF0043EEA5 /* AJWValidatorRangeRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRangeRule.h; path = ../../../AJWValidator/AJWValidatorRangeRule.h; sourceTree = "<group>"; };
+		710B73FC1C6B77FF0043EEA5 /* AJWValidatorRangeRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRangeRule.m; path = ../../../AJWValidator/AJWValidatorRangeRule.m; sourceTree = "<group>"; };
+		710B73FD1C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRegularExpressionRule.h; path = ../../../AJWValidator/AJWValidatorRegularExpressionRule.h; sourceTree = "<group>"; };
+		710B73FE1C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRegularExpressionRule.m; path = ../../../AJWValidator/AJWValidatorRegularExpressionRule.m; sourceTree = "<group>"; };
+		710B73FF1C6B77FF0043EEA5 /* AJWValidatorRemoteRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRemoteRule.h; path = ../../../AJWValidator/AJWValidatorRemoteRule.h; sourceTree = "<group>"; };
+		710B74001C6B77FF0043EEA5 /* AJWValidatorRemoteRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRemoteRule.m; path = ../../../AJWValidator/AJWValidatorRemoteRule.m; sourceTree = "<group>"; };
+		710B74011C6B77FF0043EEA5 /* AJWValidatorRequiredRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRequiredRule.h; path = ../../../AJWValidator/AJWValidatorRequiredRule.h; sourceTree = "<group>"; };
+		710B74021C6B77FF0043EEA5 /* AJWValidatorRequiredRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRequiredRule.m; path = ../../../AJWValidator/AJWValidatorRequiredRule.m; sourceTree = "<group>"; };
+		710B74031C6B77FF0043EEA5 /* AJWValidatorRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRule.h; path = ../../../AJWValidator/AJWValidatorRule.h; sourceTree = "<group>"; };
+		710B74041C6B77FF0043EEA5 /* AJWValidatorRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRule.m; path = ../../../AJWValidator/AJWValidatorRule.m; sourceTree = "<group>"; };
+		710B74051C6B77FF0043EEA5 /* UIView+AJWValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AJWValidator.h"; path = "../../../AJWValidator/UIView+AJWValidator.h"; sourceTree = "<group>"; };
+		710B74061C6B77FF0043EEA5 /* UIView+AJWValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AJWValidator.m"; path = "../../../AJWValidator/UIView+AJWValidator.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710B73E11C6B77EF0043EEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710B73DB1C6B77EF0043EEA5 = {
+			isa = PBXGroup;
+			children = (
+				710B73E71C6B77EF0043EEA5 /* AJWValidator */,
+				710B73E61C6B77EF0043EEA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710B73E61C6B77EF0043EEA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710B73E51C6B77EF0043EEA5 /* AJWValidator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710B73E71C6B77EF0043EEA5 /* AJWValidator */ = {
+			isa = PBXGroup;
+			children = (
+				710B73F01C6B77FF0043EEA5 /* AJWNumericValidator.h */,
+				710B73F11C6B77FF0043EEA5 /* AJWNumericValidator.m */,
+				710B73F21C6B77FF0043EEA5 /* AJWStringValidator.h */,
+				710B73F31C6B77FF0043EEA5 /* AJWStringValidator.m */,
+				710B73F41C6B77FF0043EEA5 /* AJWValidator.h */,
+				710B73F51C6B77FF0043EEA5 /* AJWValidator.m */,
+				710B73F61C6B77FF0043EEA5 /* AJWValidator+Private.h */,
+				710B73F71C6B77FF0043EEA5 /* AJWValidatorCustomRule.h */,
+				710B73F81C6B77FF0043EEA5 /* AJWValidatorCustomRule.m */,
+				710B73F91C6B77FF0043EEA5 /* AJWValidatorEqualRule.h */,
+				710B73FA1C6B77FF0043EEA5 /* AJWValidatorEqualRule.m */,
+				710B73FB1C6B77FF0043EEA5 /* AJWValidatorRangeRule.h */,
+				710B73FC1C6B77FF0043EEA5 /* AJWValidatorRangeRule.m */,
+				710B73FD1C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.h */,
+				710B73FE1C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.m */,
+				710B73FF1C6B77FF0043EEA5 /* AJWValidatorRemoteRule.h */,
+				710B74001C6B77FF0043EEA5 /* AJWValidatorRemoteRule.m */,
+				710B74011C6B77FF0043EEA5 /* AJWValidatorRequiredRule.h */,
+				710B74021C6B77FF0043EEA5 /* AJWValidatorRequiredRule.m */,
+				710B74031C6B77FF0043EEA5 /* AJWValidatorRule.h */,
+				710B74041C6B77FF0043EEA5 /* AJWValidatorRule.m */,
+				710B74051C6B77FF0043EEA5 /* UIView+AJWValidator.h */,
+				710B74061C6B77FF0043EEA5 /* UIView+AJWValidator.m */,
+				710B73E81C6B77EF0043EEA5 /* AJWValidator.h */,
+				710B73EA1C6B77EF0043EEA5 /* Info.plist */,
+			);
+			path = AJWValidator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		710B73E21C6B77EF0043EEA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710B741C1C6B77FF0043EEA5 /* UIView+AJWValidator.h in Headers */,
+				710B74161C6B77FF0043EEA5 /* AJWValidatorRemoteRule.h in Headers */,
+				710B740B1C6B77FF0043EEA5 /* AJWValidator.h in Headers */,
+				710B74071C6B77FF0043EEA5 /* AJWNumericValidator.h in Headers */,
+				710B74121C6B77FF0043EEA5 /* AJWValidatorRangeRule.h in Headers */,
+				710B740D1C6B77FF0043EEA5 /* AJWValidator+Private.h in Headers */,
+				710B74181C6B77FF0043EEA5 /* AJWValidatorRequiredRule.h in Headers */,
+				710B73E91C6B77EF0043EEA5 /* AJWValidator.h in Headers */,
+				710B74091C6B77FF0043EEA5 /* AJWStringValidator.h in Headers */,
+				710B741A1C6B77FF0043EEA5 /* AJWValidatorRule.h in Headers */,
+				710B74101C6B77FF0043EEA5 /* AJWValidatorEqualRule.h in Headers */,
+				710B74141C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.h in Headers */,
+				710B740E1C6B77FF0043EEA5 /* AJWValidatorCustomRule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		710B73E41C6B77EF0043EEA5 /* AJWValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710B73ED1C6B77EF0043EEA5 /* Build configuration list for PBXNativeTarget "AJWValidator" */;
+			buildPhases = (
+				710B73E01C6B77EF0043EEA5 /* Sources */,
+				710B73E11C6B77EF0043EEA5 /* Frameworks */,
+				710B73E21C6B77EF0043EEA5 /* Headers */,
+				710B73E31C6B77EF0043EEA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJWValidator;
+			productName = AJWValidator;
+			productReference = 710B73E51C6B77EF0043EEA5 /* AJWValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710B73DC1C6B77EF0043EEA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = piellard;
+				TargetAttributes = {
+					710B73E41C6B77EF0043EEA5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 710B73DF1C6B77EF0043EEA5 /* Build configuration list for PBXProject "AJWValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 710B73DB1C6B77EF0043EEA5;
+			productRefGroup = 710B73E61C6B77EF0043EEA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710B73E41C6B77EF0043EEA5 /* AJWValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710B73E31C6B77EF0043EEA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710B73E01C6B77EF0043EEA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710B74191C6B77FF0043EEA5 /* AJWValidatorRequiredRule.m in Sources */,
+				710B740C1C6B77FF0043EEA5 /* AJWValidator.m in Sources */,
+				710B741D1C6B77FF0043EEA5 /* UIView+AJWValidator.m in Sources */,
+				710B74151C6B77FF0043EEA5 /* AJWValidatorRegularExpressionRule.m in Sources */,
+				710B740A1C6B77FF0043EEA5 /* AJWStringValidator.m in Sources */,
+				710B74111C6B77FF0043EEA5 /* AJWValidatorEqualRule.m in Sources */,
+				710B741B1C6B77FF0043EEA5 /* AJWValidatorRule.m in Sources */,
+				710B740F1C6B77FF0043EEA5 /* AJWValidatorCustomRule.m in Sources */,
+				710B74081C6B77FF0043EEA5 /* AJWNumericValidator.m in Sources */,
+				710B74131C6B77FF0043EEA5 /* AJWValidatorRangeRule.m in Sources */,
+				710B74171C6B77FF0043EEA5 /* AJWValidatorRemoteRule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		710B73EB1C6B77EF0043EEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		710B73EC1C6B77EF0043EEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		710B73EE1C6B77EF0043EEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AJWValidator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piellarda.AJWValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		710B73EF1C6B77EF0043EEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AJWValidator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piellarda.AJWValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710B73DF1C6B77EF0043EEA5 /* Build configuration list for PBXProject "AJWValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710B73EB1C6B77EF0043EEA5 /* Debug */,
+				710B73EC1C6B77EF0043EEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710B73ED1C6B77EF0043EEA5 /* Build configuration list for PBXNativeTarget "AJWValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710B73EE1C6B77EF0043EEA5 /* Debug */,
+				710B73EF1C6B77EF0043EEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710B73DC1C6B77EF0043EEA5 /* Project object */;
+}
