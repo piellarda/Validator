@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "AJWValidator"
-  s.version      = "0.0.8"
+  s.name         = "APValidator"
+  s.version      = "1.4"
   s.summary      = "Drop in user input validation for your iOS apps."
 
   s.description  = <<-DESC
@@ -23,19 +23,17 @@ Built in validations:
 
 DESC
 
-  s.homepage     = "https://github.com/adamwaite/Validator"
+  s.homepage     = 'https://github.com/piellarda/Validator.git'
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author             = { "Adam Waite" => "adam@adamjwaite.co.uk" }
-  s.social_media_url = "http://twitter.com/AdamWaite"
 
   s.platform     = :ios
   s.platform     = :ios, '6.0'
 
-  s.source       = { :git => "https://github.com/adamwaite/Validator.git", :tag => "v0.0.8" }
-  s.source_files  = 'AJWValidator', 'AJWValidator/**/*.{h,m}'
-  s.public_header_files = 'AJWValidator/AJWValidator.h', 'AJWValidator/UIView+AJWValidator.h'
+  s.source       = { :git => "https://github.com/piellarda/Validator.git", :tag => "v1.4" }
+  s.source_files  = 'APValidator', 'APValidator/**/*.{h,m}'
 
   s.requires_arc = true
 

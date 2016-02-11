@@ -1,1 +1,5 @@
 Pods/
+.DS_Store
+*.framework.zip
+Carthage/
+xcuserdata/
